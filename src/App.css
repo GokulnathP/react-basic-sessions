@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid white;
+  gap: 15px;
+  border-radius: 5px;
+}
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.label {
+  width: 30%;
+  text-align: start;
+  font-size: 18px;
+}
+
+.input {
+  width: 67%;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.actions {
+
+}
+
+.submit {
+  border: 1px solid blue;
+}
+
+.error {
+  padding-left: 30%;
+  font-size: 14px;
+  color: red;
+  margin: 0;
+}
